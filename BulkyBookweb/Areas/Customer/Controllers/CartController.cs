@@ -172,6 +172,7 @@ namespace BulkyBookweb.Areas.Customer.Controllers
 					CancelUrl = domain + $"Customer/Cart/Index",
 				};
 				foreach (var Item in ShoppingCartVM.ListCart)
+					
 				{
 
 					var sessionlineitem = new SessionLineItemOptions
