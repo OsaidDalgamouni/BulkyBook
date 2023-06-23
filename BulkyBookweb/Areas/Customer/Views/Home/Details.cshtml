@@ -57,9 +57,9 @@
                             <p class="text-secondary">@Html.Raw(Model.Product.Description)</p>
                         </div>
                         <div class="col-md-4">
-                        <div class="row pl-2 input-group ">
-                            <span class="col-2 input-group-text border-0 fw-semibold text-primary">Count</span>
-                            <div class="col-10"><input asp-for="Count" min="1" max="100" class="form-control" /></div>
+                        <div class=" mb-3 input-group ">
+                            <span class=" input-group-text border-0 fw-semibold text-primary" id="forinput">Count</span>
+                            <input asp-for="Count"  min="1" max="100" class="form-control text-end" />
                        
                         </div>
                         </div>
